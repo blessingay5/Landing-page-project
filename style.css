@@ -46,7 +46,7 @@ ul {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    margin-right: 50px;
+    margin-right: 150px;
 }
 .right {
     display: flex;
@@ -59,7 +59,7 @@ ul {
 .left {
     display: flex;
     justify-content: center;
-    margin-left: 150px;
+    margin-left: 100px;
     flex-direction: column;
     width: 50%;
     margin-top: 50px;
@@ -70,14 +70,16 @@ h1 {
     font-weight: 900;
     color: #f9faf8;
 }
-p {
+.p-one {
     font-size: 18px;
-    color: #e5e7eb; 
     filter: contrast(50%);
+    color: #e5e7eb; 
+    
     margin-bottom: 10px;
 }
 img {
     margin-bottom: 50px;
+    margin-right: 70px;
 }
 .signup-button {
     background-color: #3b82f6;
@@ -87,12 +89,36 @@ img {
     border-radius: 10px;
     width: 100px;
     height: 40px;
-
-
 }
-
-
-
+.container-two {
+    margin-bottom: 100px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.blue-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box {
+    border: 3px solid #3b82f6;
+    border-radius: 15px;
+    padding: 70px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.p-two{
+   margin-left: 15px; 
+   filter: contrast(50%);
+   
+}
 
 
 
