@@ -91,7 +91,7 @@ img {
     height: 40px;
 }
 .container-two {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 h2 {
     font-size: 36px;
@@ -118,6 +118,24 @@ h2 {
    margin-left: 15px; 
    filter: contrast(50%);
    
+}
+.container-three {
+    background-color: #e5e7eb;
+    padding: 90px;
+}
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lower-quote {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 120px;
 }
 
 
