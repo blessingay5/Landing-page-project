@@ -107,8 +107,9 @@ h2 {
     margin-bottom: 5px;
 }
 .p-two{
-   margin-left: 15px; 
+   margin-left: 10px; 
    filter: contrast(50%);
+   text-align: center;
    
 }
 .container-three {
@@ -120,8 +121,9 @@ h2 {
     font-size: 36px;
     font-weight: normal;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    filter: contrast(50%);
 }
 .lower-quote {
     font-size: 24px;
